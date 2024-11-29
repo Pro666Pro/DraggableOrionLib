@@ -1,4 +1,8 @@
--- credits to giang 
+
+
+-- credits to giang btw
+
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Loading Custom Orion Library" ,Duration = 2, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "OK"})
 
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
