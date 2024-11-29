@@ -1,9 +1,3 @@
-
-
--- credits to giang btw
-
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Loading Custom Orion Library" ,Duration = 2, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "OK"})
-
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -18,12 +12,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(10, 10, 10),
-			Second = Color3.fromRGB(26, 26, 26),
-			Stroke = Color3.fromRGB(50, 50, 50),
-			Divider = Color3.fromRGB(50, 50, 50),
-			Text = Color3.fromRGB(255, 255, 255),
-			TextDark = Color3.fromRGB(170, 170, 170)
+			Main = Color3.fromRGB(5, 5, 5),
+			Second = Color3.fromRGB(17, 17, 17),
+			Stroke = Color3.fromRGB(38, 38, 38),
+			Divider = Color3.fromRGB(38, 38, 38),
+			Text = Color3.fromRGB(230, 230, 230),
+			TextDark = Color3.fromRGB(140, 140, 140)
 		}
 	},
 	SelectedTheme = "Default",
