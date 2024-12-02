@@ -5,6 +5,68 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 
+
+if _G.Theme = Aqua then
+local OrionLib = {
+	Elements = {},
+	ThemeObjects = {},
+	Connections = {},
+	Flags = {},
+	Themes = {
+		Default = {
+			Main = Color3.fromRGB(0, 255, 255),
+			Second = Color3.fromRGB(0, 235, 235),
+			Stroke = Color3.fromRGB(100, 255, 255),
+			Divider = Color3.fromRGB(100, 255, 255),
+			Text = Color3.fromRGB(238, 238, 238),
+			TextDark = Color3.fromRGB(200, 200, 200)
+		}
+	},
+	SelectedTheme = "Default",
+	Folder = nil,
+	SaveCfg = false
+}
+elseif _G.Theme = Galactic then
+local OrionLib = {
+	Elements = {},
+	ThemeObjects = {},
+	Connections = {},
+	Flags = {},
+	Themes = {
+		Default = {
+			Main = Color3.fromRGB(120, 0, 255),
+			Second = Color3.fromRGB(100, 0, 255),
+			Stroke = Color3.fromRGB(68, 3, 171),
+			Divider = Color3.fromRGB(68, 3, 171),
+			Text = Color3.fromRGB(230, 230, 230),
+			TextDark = Color3.fromRGB(140, 140, 140)
+		}
+	},
+	SelectedTheme = "Default",
+	Folder = nil,
+	SaveCfg = false
+}
+elseif _G.Theme = Light then
+local OrionLib = {
+	Elements = {},
+	ThemeObjects = {},
+	Connections = {},
+	Flags = {},
+	Themes = {
+		Default = {
+			Main = Color3.fromRGB(250, 250, 250),
+			Second = Color3.fromRGB(235, 235, 235),
+			Stroke = Color3.fromRGB(220, 220, 220),
+			Divider = Color3.fromRGB(220, 220, 220),
+			Text = Color3.fromRGB(10, 10, 10),
+			TextDark = Color3.fromRGB(0, 0, 0)
+		}
+	},
+	SelectedTheme = "Default",
+	Folder = nil,
+	SaveCfg = false
+}
+else
 local OrionLib = {
 	Elements = {},
 	ThemeObjects = {},
@@ -24,6 +86,8 @@ local OrionLib = {
 	Folder = nil,
 	SaveCfg = false
 }
+end
+
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
 local Icons = {}
