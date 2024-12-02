@@ -6,7 +6,7 @@ local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 
 
-if _G.Theme = "Aqua" then
+if _G.Theme == "Aqua" then
 local OrionLib = {
 	Elements = {},
 	ThemeObjects = {},
@@ -26,7 +26,7 @@ local OrionLib = {
 	Folder = nil,
 	SaveCfg = false
 }
-elseif _G.Theme = "Galactic" then
+elseif _G.Theme == "Galactic" then
 local OrionLib = {
 	Elements = {},
 	ThemeObjects = {},
@@ -46,7 +46,7 @@ local OrionLib = {
 	Folder = nil,
 	SaveCfg = false
 }
-elseif _G.Theme = "Light" then
+elseif _G.Theme == "Light" then
 local OrionLib = {
 	Elements = {},
 	ThemeObjects = {},
